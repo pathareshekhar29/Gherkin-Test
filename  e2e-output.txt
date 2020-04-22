@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "App page",
+    "line": 1,
+    "id": "app-page",
+    "tags": [],
+    "uri": "e2e\\features\\app.feature",
+    "elements": [
+      {
+        "id": "app-page;first-scenario",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "First scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\features\\app.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open app page",
+            "match": {
+              "location": "e2e\\features\\app.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "app page loads",
+            "match": {
+              "location": "e2e\\features\\app.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "header \"Welcome to app!\" is displayed",
+            "match": {
+              "location": "e2e\\features\\app.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
